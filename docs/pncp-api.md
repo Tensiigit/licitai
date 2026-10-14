@@ -1,4 +1,4 @@
-# API de consulta do PNCP: achados do spike (WB-1)
+# API de consulta do PNCP: achados da exploração inicial
 
 Medido em 2026-10-14, com `scripts/explore-pncp.mjs`, UF SP, janela de 1 dia.
 A amostra é pequena (cerca de 30 chamadas, em um único horário). Tudo que está
@@ -10,7 +10,7 @@ Fonte da especificação: OpenAPI oficial em `https://pncp.gov.br/api/consulta/v
 
 | Endpoint | Uso |
 |---|---|
-| `GET /api/consulta/v1/contratacoes/publicacao` | contratações por **data de publicação**. É o que o frame prevê. |
+| `GET /api/consulta/v1/contratacoes/publicacao` | contratações por **data de publicação**. É o que o desenho inicial do projeto prevê. |
 | `GET /api/consulta/v1/contratacoes/proposta` | contratações com **recebimento de propostas aberto**. Candidato melhor para alertas, ver abaixo. |
 
 ### Parâmetros de `publicacao`
@@ -44,13 +44,13 @@ Todos já vêm estruturados. **Não é preciso regex para prazo, valor ou modali
 | prazo da proposta | `dataEncerramentoProposta` | ISO sem fuso (`2026-10-29T09:00:00`); **fuso não verificado**, provavelmente horário de Brasília |
 | abertura da proposta | `dataAberturaProposta` | |
 | modalidade | `modalidadeId`, `modalidadeNome` | 6 = Pregão - Eletrônico, 8 = Dispensa (verificados) |
-| identificador único | `numeroControlePNCP` | ex.: `45358058000140-1-000182/2026`; é a chave para o estado de WB-5 |
+| identificador único | `numeroControlePNCP` | ex.: `45358058000140-1-000182/2026`; é a chave para o estado de alertas já enviados |
 | link | `linkSistemaOrigem` | **nulo em 9 de 50 itens (pregão) e 31 de 50 (dispensa)** |
 
 Consequência para o link: é preciso um plano B quando `linkSistemaOrigem` é nulo.
 A página pública do PNCP pode ser montada a partir de `orgaoEntidade.cnpj`,
 `anoCompra` e `sequencialCompra`. O formato exato dessa URL **não foi verificado**
-neste spike e fica como primeira checagem de WB-6.
+neste spike e fica como primeira checagem ao montar a mensagem do Telegram.
 
 Campo sensível: `usuarioNome` traz o nome de uma pessoa ou sistema que publicou.
 O script o remove da amostra salva, junto com `linkProcessoEletronico`, que pode
@@ -62,9 +62,9 @@ continua sendo `linkSistemaOrigem`.
 Para um alerta, o que importa é a licitação **ainda aceitar proposta**. O endpoint
 `proposta` já devolve só isso e permite filtrar por UF sem exigir modalidade, o que
 reduz o número de chamadas (e o risco do rate limit abaixo). Já `publicacao` com
-janela por data é o que o frame descreve e é melhor para "o que saiu na última hora".
+janela por data é o que o desenho inicial descreve e é melhor para "o que saiu na última hora".
 
-Decisão a tomar em WB-3, não aqui. Os dois funcionam com a mesma resposta.
+Decisão a tomar ao escrever o cliente HTTP, não aqui. Os dois funcionam com a mesma resposta.
 
 ## Erros e limites observados
 
@@ -72,14 +72,14 @@ Decisão a tomar em WB-3, não aqui. Os dois funcionam com a mesma resposta.
   Aconteceu a partir da 4ª rodada de uma rajada de 2 chamadas a cada 3 s
   (cerca de 10 chamadas em ~30 s). Sem cabeçalho `Retry-After`. A API voltou a
   responder 200 em poucos segundos (menos de ~20 s, medido de forma grosseira).
-- Consequência para o cliente (WB-3): tratar **429 como erro transitório**, com
+- Consequência para o cliente HTTP: tratar **429 como erro transitório**, com
   espera crescente e jitter, e **não assumir que o corpo é JSON**. O primeiro
   rascunho deste script quebrou exatamente assim: tentou ler HTML como JSON e
   perdeu o status HTTP. Resposta com `content-type` não JSON deve ser classificada
   pelo status, nunca descartada.
 - **5xx: nenhum observado** nesta amostra. Isso não prova que não ocorrem; o
   briefing do projeto os trata como risco real. A taxa só aparece com o uso
-  diário do workflow (WB-7), por isso a WB-3 mantém retry para 5xx.
+  diário do workflow agendado, por isso o cliente mantém retry para 5xx.
 - Latência: 100 a 1100 ms por chamada, tipicamente abaixo de 600 ms.
 - `204` sem corpo é possível pela especificação (resposta sem resultados).
   Não ocorreu na amostra.
@@ -104,12 +104,12 @@ Exemplos reais que o filtro precisa pegar, com o termo que os revela:
 - "**Switches** PoE e Fontes PoE ..."
 - "MANUTENCAO DE EQUIPAMENTOS DE **INFORMATICA**" (sem acento, caixa alta)
 
-Lições para WB-4: comparar sem acento e sem diferença de maiúscula; usar radicais
+Lições para o filtro por palavra-chave: comparar sem acento e sem diferença de maiúscula; usar radicais
 (`comput`, `inform`) e não só palavras inteiras; esperar falso positivo (ex.:
 "impressora 3D industrial" casa com "impressora" mas é pesquisa científica).
 A taxa de 7% é uma medida de um dia, não uma estimativa confiável.
 
-## Respostas às perguntas abertas do frame
+## Respostas às perguntas abertas do desenho inicial
 
 | Pergunta | Resposta |
 |---|---|
@@ -120,5 +120,5 @@ A taxa de 7% é uma medida de um dia, não uma estimativa confiável.
 | O PNCP devolve 5xx? | **Não observado.** Observado **429**, com HTML. Ambos precisam de tratamento. |
 
 Efeito no escopo: o "resumo do edital por regex" do briefing perde quase todo o
-sentido, porque os dados já são estruturados. Sugestão para a WB-10 documentar
-como decisão: "sem LLM e sem regex para campos que a API já entrega".
+sentido, porque os dados já são estruturados. Sugestão: documentar
+como decisão de design: "sem LLM e sem regex para campos que a API já entrega".

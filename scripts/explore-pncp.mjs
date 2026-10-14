@@ -1,5 +1,5 @@
-// Spike (WB-1): explora a API de consulta do PNCP e imprime status, tempo e forma da resposta.
-// Descartavel: o cliente de producao nasce em WB-3. Sem dependencias, Node 18+.
+// Spike: explora a API de consulta do PNCP e imprime status, tempo e forma da resposta.
+// Descartavel: o cliente de producao sera um modulo separado. Sem dependencias, Node 18+.
 import { writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 
