@@ -1,9 +1,9 @@
 {
   "key": "WB-9",
-  "title": "Depois do piloto: comandos /palavras /uf /ganhei",
+  "title": "Comandos do bot: /palavras /uf /enviei /ganhei",
   "type": "feature",
   "status": "open",
-  "desc": "",
+  "desc": "Comandos lidos via getUpdates a cada execucao horaria (atraso de ate 1h, aceito e documentado em WB-10). /enviei registra proposta enviada a partir de um alerta; /ganhei registra contrato ganho. Fazer depois de WB-1 a WB-8.",
   "created": "2026-10-14T01:04:06Z",
   "updated": "2026-10-14T01:04:06Z",
   "comments": [],

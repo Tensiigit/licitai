@@ -1,11 +1,15 @@
-{
-  "key": "WB-3",
-  "title": "Cliente PNCP com retry, backoff e falha parcial",
-  "type": "feature",
-  "status": "open",
-  "desc": "",
-  "created": "2026-10-14T01:04:01Z",
-  "updated": "2026-10-14T01:04:01Z",
-  "comments": [],
-  "linked": []
+﻿{
+    "key":  "WB-3",
+    "title":  "Cliente PNCP com retry, backoff e falha parcial",
+    "type":  "feature",
+    "status":  "open",
+    "desc":  "Do spike WB-1 (docs/pncp-api.md): tratar 429 (corpo HTML, sem Retry-After) e 5xx com backoff e jitter; nunca assumir corpo JSON; formatar datas em America/Sao_Paulo, nao UTC; limite observado ~10 chamadas em 30 s; considerar o endpoint /proposta.",
+    "created":  "2026-10-14T01:04:01Z",
+    "updated":  "2026-10-14T01:04:01Z",
+    "comments":  [
+
+                 ],
+    "linked":  [
+
+               ]
 }

@@ -1,0 +1,11 @@
+{
+  "key": "WB-10",
+  "title": "Docs de decisao: ADRs com tradeoffs (atraso nos comandos, estado no repo, regras sem LLM)",
+  "type": "chore",
+  "status": "open",
+  "desc": "",
+  "created": "2026-10-14T01:22:24Z",
+  "updated": "2026-10-14T01:22:24Z",
+  "comments": [],
+  "linked": []
+}
