@@ -1,0 +1,299 @@
+{
+  "data": [
+    {
+      "valorTotalHomologado": null,
+      "orgaoEntidade": {
+        "cnpj": "45358058000140",
+        "razaoSocial": "FUNDACAO UNIVERSIDADE FEDERAL DE SAO CARLOS",
+        "poderId": "E",
+        "esferaId": "F"
+      },
+      "dataAtualizacao": "2026-10-13T07:00:07",
+      "dataInclusao": "2026-10-13T07:00:07",
+      "anoCompra": 2026,
+      "srp": false,
+      "sequencialCompra": 182,
+      "emendaParlamentar": null,
+      "numeroCompra": "162",
+      "processo": "23112.023049/2026-16",
+      "objetoCompra": "Contratação de serviços de viagem para realização das Disciplinas Obrigatórias RTB1 e RTB2 ",
+      "informacaoComplementar": "Justifica-se a contratação supracitada, devido as disciplinas RTB1 e RTB2 serem disciplinas obrigatórias, cuja atividade conta como\nhoras aula e consta do Projeto Pedagógico do Curso de Bacharelado em Turismo, através da qual se almeja \"o conhecimento crítico\nda realidade turística brasileira \"in loco\". Estas viagens integram conhecimentos de outras disciplinas do Curso como \"Gastronomia,\nGestão e Cultura\", \"Hospitalidade\", \"Meios de Hospedagem\", \"Roteiros Turísticos\", \"Organização e Gestão em Eventos 1 e 2\",\n\"Transportes e Turismo\", \"Marketing Turístico 1 e 2\", \"Recreação e Entretenimento\", \"Geografia do Turismo\" entre outras, onde os\ndiscentes observarão de maneira integrada as especificidades de cada disciplina. E, com base nas experiências anteriores, pôde-se\nconfirmar a substanciosa contribuição destas disciplinas para a construção efetiva da interdisciplinaridade, atendendo ao propósito\nde estimular os alunos a \"identificar o potencial turístico de uma região\". Além de Conceito Incompleto já atribuído em uma das\ndisciplinas também temos Discentes Formandos inscritos nas disciplinas.",
+      "dataAberturaProposta": "2026-10-13T08:00:00",
+      "dataEncerramentoProposta": "2026-10-29T09:00:00",
+      "dataPublicacaoPncp": "2026-10-13T07:00:07",
+      "dataAtualizacaoGlobal": "2026-10-13T07:01:21",
+      "unidadeOrgao": {
+        "ufNome": "São Paulo",
+        "ufSigla": "SP",
+        "municipioNome": "São Carlos",
+        "codigoUnidade": "154049",
+        "nomeUnidade": "FUNDACAO UNIVERSIDADE FEDERAL DE SAO CARLOS",
+        "codigoIbge": "3548906"
+      },
+      "orgaoSubRogado": null,
+      "unidadeSubRogada": null,
+      "amparoLegal": {
+        "nome": "Lei 14.133/2021, Art. 28, I",
+        "descricao": "pregão: modalidade de licitação obrigatória para aquisição de bens e serviços comuns",
+        "codigo": 1
+      },
+      "linkSistemaOrigem": "https://cnetmobile.estaleiro.serpro.gov.br/comprasnet-web/public/compras/acompanhamento-compra?compra=15404905001622026",
+      "justificativaPresencial": null,
+      "numeroControlePNCP": "45358058000140-1-000182/2026",
+      "valorTotalEstimado": 257909.67,
+      "modalidadeId": 6,
+      "modalidadeNome": "Pregão - Eletrônico",
+      "modoDisputaId": 3,
+      "modoDisputaNome": "Aberto-Fechado",
+      "tipoInstrumentoConvocatorioCodigo": 1,
+      "tipoInstrumentoConvocatorioNome": "Edital",
+      "fontesOrcamentarias": [
+        {
+          "codigo": 4,
+          "nome": "Federal",
+          "descricao": "Recurso orçamentário federal disponível e devidamente vinculado à despesa que será realizada.",
+          "dataInclusao": "2026-10-13T07:00:08"
+        }
+      ],
+      "situacaoCompraId": 1,
+      "situacaoCompraNome": "Divulgada no PNCP"
+    },
+    {
+      "valorTotalHomologado": null,
+      "orgaoEntidade": {
+        "cnpj": "01263896000164",
+        "razaoSocial": "MINISTERIO DA CIENCIA, TECNOLOGIA E INOVACOES",
+        "poderId": "E",
+        "esferaId": "F"
+      },
+      "dataAtualizacao": "2026-10-13T07:00:12",
+      "dataInclusao": "2026-10-13T07:00:12",
+      "anoCompra": 2026,
+      "srp": false,
+      "sequencialCompra": 727,
+      "emendaParlamentar": null,
+      "numeroCompra": "29",
+      "processo": "01242.000664/2026-36",
+      "objetoCompra": "Serviço de Apoio Operacional\te copeiragem, com dedicação exclusiva de mão de obra",
+      "informacaoComplementar": null,
+      "dataAberturaProposta": "2026-10-13T08:00:00",
+      "dataEncerramentoProposta": "2026-10-27T08:45:00",
+      "dataPublicacaoPncp": "2026-10-13T07:00:12",
+      "dataAtualizacaoGlobal": "2026-10-13T07:15:20",
+      "unidadeOrgao": {
+        "ufNome": "São Paulo",
+        "ufSigla": "SP",
+        "municipioNome": "São José dos Campos",
+        "codigoUnidade": "240224",
+        "nomeUnidade": "CENTR.NAC.DE MONIT.E ALERT.DE DESAST.NATURAIS",
+        "codigoIbge": "3549904"
+      },
+      "orgaoSubRogado": null,
+      "unidadeSubRogada": null,
+      "amparoLegal": {
+        "nome": "Lei 14.133/2021, Art. 28, I",
+        "descricao": "pregão: modalidade de licitação obrigatória para aquisição de bens e serviços comuns",
+        "codigo": 1
+      },
+      "linkSistemaOrigem": "https://cnetmobile.estaleiro.serpro.gov.br/comprasnet-web/public/compras/acompanhamento-compra?compra=24022405000292026",
+      "justificativaPresencial": null,
+      "numeroControlePNCP": "01263896000164-1-000727/2026",
+      "valorTotalEstimado": 604423.08,
+      "modalidadeId": 6,
+      "modalidadeNome": "Pregão - Eletrônico",
+      "modoDisputaId": 3,
+      "modoDisputaNome": "Aberto-Fechado",
+      "tipoInstrumentoConvocatorioCodigo": 1,
+      "tipoInstrumentoConvocatorioNome": "Edital",
+      "fontesOrcamentarias": [
+        {
+          "codigo": 4,
+          "nome": "Federal",
+          "descricao": "Recurso orçamentário federal disponível e devidamente vinculado à despesa que será realizada.",
+          "dataInclusao": "2026-10-13T07:00:12"
+        }
+      ],
+      "situacaoCompraId": 1,
+      "situacaoCompraNome": "Divulgada no PNCP"
+    },
+    {
+      "valorTotalHomologado": null,
+      "orgaoEntidade": {
+        "cnpj": "60453032000174",
+        "razaoSocial": "UNIVERSIDADE FEDERAL DE SAO PAULO",
+        "poderId": "E",
+        "esferaId": "F"
+      },
+      "dataAtualizacao": "2026-10-13T07:00:12",
+      "dataInclusao": "2026-10-13T07:00:12",
+      "anoCompra": 2026,
+      "srp": false,
+      "sequencialCompra": 269,
+      "emendaParlamentar": null,
+      "numeroCompra": "465",
+      "processo": "23089.021043/2026-49",
+      "objetoCompra": "Contratação de empresa especializada na prestação de serviços de Consultoria, Laudos (Insalubridade, Periculosidade, Raio X, e Irradiação Ionizante) e Avaliações Ambientais LTCAT nos Campi da Unifesp",
+      "informacaoComplementar": null,
+      "dataAberturaProposta": "2026-10-13T09:00:00",
+      "dataEncerramentoProposta": "2026-10-29T08:59:00",
+      "dataPublicacaoPncp": "2026-10-13T07:00:12",
+      "dataAtualizacaoGlobal": "2026-10-13T07:01:18",
+      "unidadeOrgao": {
+        "ufNome": "São Paulo",
+        "ufSigla": "SP",
+        "municipioNome": "São Paulo",
+        "codigoUnidade": "153031",
+        "nomeUnidade": "MEC-UNIVERSIDADE FEDERAL DE SAO PAULO/SP",
+        "codigoIbge": "3550308"
+      },
+      "orgaoSubRogado": null,
+      "unidadeSubRogada": null,
+      "amparoLegal": {
+        "nome": "Lei 14.133/2021, Art. 28, I",
+        "descricao": "pregão: modalidade de licitação obrigatória para aquisição de bens e serviços comuns",
+        "codigo": 1
+      },
+      "linkSistemaOrigem": "https://cnetmobile.estaleiro.serpro.gov.br/comprasnet-web/public/compras/acompanhamento-compra?compra=15303105004652026",
+      "justificativaPresencial": null,
+      "numeroControlePNCP": "60453032000174-1-000269/2026",
+      "valorTotalEstimado": 2181508.09,
+      "modalidadeId": 6,
+      "modalidadeNome": "Pregão - Eletrônico",
+      "modoDisputaId": 3,
+      "modoDisputaNome": "Aberto-Fechado",
+      "tipoInstrumentoConvocatorioCodigo": 1,
+      "tipoInstrumentoConvocatorioNome": "Edital",
+      "fontesOrcamentarias": [
+        {
+          "codigo": 4,
+          "nome": "Federal",
+          "descricao": "Recurso orçamentário federal disponível e devidamente vinculado à despesa que será realizada.",
+          "dataInclusao": "2026-10-13T07:00:13"
+        }
+      ],
+      "situacaoCompraId": 1,
+      "situacaoCompraNome": "Divulgada no PNCP"
+    },
+    {
+      "valorTotalHomologado": null,
+      "orgaoEntidade": {
+        "cnpj": "00509968000148",
+        "razaoSocial": "TRIBUNAL SUPERIOR DO TRABALHO",
+        "poderId": "J",
+        "esferaId": "F"
+      },
+      "dataAtualizacao": "2026-10-13T07:00:14",
+      "dataInclusao": "2026-10-13T07:00:14",
+      "anoCompra": 2026,
+      "srp": false,
+      "sequencialCompra": 3474,
+      "emendaParlamentar": null,
+      "numeroCompra": "203",
+      "processo": "6505/2025",
+      "objetoCompra": "Contratação de empresa de engenharia para a prestação de serviços de manutenção preventiva e corretiva continuados nos imóveis ocupados ou a serem ocupados pelas unidades do Tribunal Regional do Trabalho da 15ª Região, Circunscrições administrativas de 4 a 8, conforme Anexo A, bem como de serviços sob demanda sem dedicação exclusiva de mão de obra.",
+      "informacaoComplementar": null,
+      "dataAberturaProposta": "2026-10-13T08:00:00",
+      "dataEncerramentoProposta": "2026-10-27T14:00:00",
+      "dataPublicacaoPncp": "2026-10-13T07:00:14",
+      "dataAtualizacaoGlobal": "2026-10-13T07:01:04",
+      "unidadeOrgao": {
+        "ufNome": "São Paulo",
+        "ufSigla": "SP",
+        "municipioNome": "Campinas",
+        "codigoUnidade": "080011",
+        "nomeUnidade": "TRIBUNAL REGIONAL DO TRABALHO DA 15A.REGIAO",
+        "codigoIbge": "3509502"
+      },
+      "orgaoSubRogado": null,
+      "unidadeSubRogada": null,
+      "amparoLegal": {
+        "nome": "Lei 14.133/2021, Art. 28, I",
+        "descricao": "pregão: modalidade de licitação obrigatória para aquisição de bens e serviços comuns",
+        "codigo": 1
+      },
+      "linkSistemaOrigem": "https://cnetmobile.estaleiro.serpro.gov.br/comprasnet-web/public/compras/acompanhamento-compra?compra=08001105002032026",
+      "justificativaPresencial": null,
+      "numeroControlePNCP": "00509968000148-1-003474/2026",
+      "valorTotalEstimado": 3304416.49,
+      "modalidadeId": 6,
+      "modalidadeNome": "Pregão - Eletrônico",
+      "modoDisputaId": 3,
+      "modoDisputaNome": "Aberto-Fechado",
+      "tipoInstrumentoConvocatorioCodigo": 1,
+      "tipoInstrumentoConvocatorioNome": "Edital",
+      "fontesOrcamentarias": [
+        {
+          "codigo": 4,
+          "nome": "Federal",
+          "descricao": "Recurso orçamentário federal disponível e devidamente vinculado à despesa que será realizada.",
+          "dataInclusao": "2026-10-13T07:00:15"
+        }
+      ],
+      "situacaoCompraId": 1,
+      "situacaoCompraNome": "Divulgada no PNCP"
+    },
+    {
+      "valorTotalHomologado": null,
+      "orgaoEntidade": {
+        "cnpj": "06302492000156",
+        "razaoSocial": "TRIBUNAL REGIONAL ELEITORAL DE SAO PAULO",
+        "poderId": "J",
+        "esferaId": "F"
+      },
+      "dataAtualizacao": "2026-10-13T07:00:14",
+      "dataInclusao": "2026-10-13T07:00:14",
+      "anoCompra": 2026,
+      "srp": true,
+      "sequencialCompra": 35,
+      "emendaParlamentar": null,
+      "numeroCompra": "171",
+      "processo": "0007865-93.2026.6.26.8000",
+      "objetoCompra": "Registro de Preços para contratação de serviços de manutenção de persianas horizontais, com fornecimento de peças novas, instaladas no Tribunal Regional Eleitoral do Estado de São Paulo e respectivos cartórios na cidade de São Paulo, a serem executados sem regime de dedicação exclusiva de mão de obra.",
+      "informacaoComplementar": null,
+      "dataAberturaProposta": "2026-10-13T08:00:00",
+      "dataEncerramentoProposta": "2026-10-27T13:00:00",
+      "dataPublicacaoPncp": "2026-10-13T07:00:14",
+      "dataAtualizacaoGlobal": "2026-10-13T07:01:38",
+      "unidadeOrgao": {
+        "ufNome": "São Paulo",
+        "ufSigla": "SP",
+        "municipioNome": "São Paulo",
+        "codigoUnidade": "070018",
+        "nomeUnidade": "ESP-TRIBUNAL REGIONAL ELEITORAL DE SAO PAULO",
+        "codigoIbge": "3550308"
+      },
+      "orgaoSubRogado": null,
+      "unidadeSubRogada": null,
+      "amparoLegal": {
+        "nome": "Lei 14.133/2021, Art. 28, I",
+        "descricao": "pregão: modalidade de licitação obrigatória para aquisição de bens e serviços comuns",
+        "codigo": 1
+      },
+      "linkSistemaOrigem": "https://cnetmobile.estaleiro.serpro.gov.br/comprasnet-web/public/compras/acompanhamento-compra?compra=07001805001712026",
+      "justificativaPresencial": null,
+      "numeroControlePNCP": "06302492000156-1-000035/2026",
+      "valorTotalEstimado": 146091,
+      "modalidadeId": 6,
+      "modalidadeNome": "Pregão - Eletrônico",
+      "modoDisputaId": 1,
+      "modoDisputaNome": "Aberto",
+      "tipoInstrumentoConvocatorioCodigo": 1,
+      "tipoInstrumentoConvocatorioNome": "Edital",
+      "fontesOrcamentarias": [
+        {
+          "codigo": 4,
+          "nome": "Federal",
+          "descricao": "Recurso orçamentário federal disponível e devidamente vinculado à despesa que será realizada.",
+          "dataInclusao": "2026-10-13T07:00:14"
+        }
+      ],
+      "situacaoCompraId": 1,
+      "situacaoCompraNome": "Divulgada no PNCP"
+    }
+  ],
+  "totalRegistros": 362,
+  "totalPaginas": 8,
+  "numeroPagina": 1,
+  "paginasRestantes": 7,
+  "empty": false
+}
