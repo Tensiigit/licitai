@@ -1,0 +1,11 @@
+{
+  "key": "WB-3",
+  "title": "Cliente PNCP com retry, backoff e falha parcial",
+  "type": "feature",
+  "status": "open",
+  "desc": "",
+  "created": "2026-10-14T01:04:01Z",
+  "updated": "2026-10-14T01:04:01Z",
+  "comments": [],
+  "linked": []
+}

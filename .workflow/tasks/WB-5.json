@@ -1,0 +1,11 @@
+{
+  "key": "WB-5",
+  "title": "Estado SQLite: guardar IDs ja enviados (sem alerta repetido)",
+  "type": "feature",
+  "status": "open",
+  "desc": "",
+  "created": "2026-10-14T01:04:03Z",
+  "updated": "2026-10-14T01:04:03Z",
+  "comments": [],
+  "linked": []
+}

@@ -1,0 +1,8 @@
+.codegraph/
+.symdex/
+.rtk/
+node_modules/
+.env
+.workflow/*
+!.workflow/config.json
+!.workflow/tasks/
